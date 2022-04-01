@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 44, 0)" viewBox="0 0 22 22">
+      <image preserveAspectRatio="none" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGOfPtRkwAAAMJJREFUOBFjYBgFgzIE/v//zwjETPgch1cSm0aggUJA8XlALIJNniwxoKFaQPwAiL8CsRhZhqBrAhoUAzUQSFHBYKAhLEDcDTINCVDmYqBBCkB8DMlAGJN8g4EmuAPxG5hJaDR5BgMN4QfiG2iGIXMJGow1uTEyMn4ERp42EM9Aj0Sq8YHOTADiV8jOBbIJupgoBwANAqXfh0iGU8dgkO1AQ8WBeDPUcOoZDPMa0OAGIKa+wVDXmwEN54ZZNkoPTAgAAH6d/dNxaf5hAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <rect id="Rectangle_Copy_8" data-name="Rectangle Copy 8" width="22" height="22" fill="url(#pattern)"/>
+</svg>

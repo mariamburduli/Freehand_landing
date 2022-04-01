@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #efeef3;
+  margin-bottom: 50px;
+}
+header nav {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+header nav .logo {
+  margin-right: 200px;
+}
+header nav .logo img {
+  width: 195px;
+  height: 28px;
+}
+header nav .pages {
+  display: flex;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  color: #000000;
+  margin-right: 148px;
+}
+header nav .pages .page:not(:last-child) {
+  margin-right: 62px;
+}
+header nav .auth {
+  display: flex;
+}
+header nav .auth .sign-in, .log-in {
+  height: 46px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #16133e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+}
+header nav .auth .sign-in {
+  width: 120px;
+  margin-right: 16px;
+}
+header nav .auth .log-in  {
+  width: 110px;
+}
+header nav .auth .sign-in:hover, .log-in:hover  {
+  background-color: #16133e;
+  color: white;
+  cursor: pointer;
+}
+
+/* welcome/text-box */
+
+.layout {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+}
+.layout .welcome-content {
+  margin-bottom: 122px;
+}
+.layout .welcome-content .body {
+  display: flex;
+  justify-content: space-between;
+}
+.layout .welcome-content .body .text-box {
+  max-width: 455px;
+  width: 100%;
+  margin-top: 30px;
+}
+.layout .welcome-content .body .text-box h1 {
+  font-family: "NunitoSans-SemiBold";
+  font-size: 56px;
+  color: #16133e;
+  line-height: 68px;
+  margin-bottom: 12px;
+}
+.layout .welcome-content .body .text-box p {
+  font-family: "Roboto-Regular";
+  font-size: 19px;
+  color: #183b56;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.layout .welcome-content .body .actions {
+  display: flex;
+}
+.layout .welcome-content .body .text-box .actions .view-project, .learn-more {
+  width: 152px;
+  height: 46px;
+  background-color: white;
+  color: #007ffc;
+  border: 2px solid #007ffc;
+  border-radius: 8px;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+}
+.layout .welcome-content .body .text-box .actions .view-project {
+  margin-right: 22px;
+}
+.layout .welcome-content .body .text-box .actions .view-project:hover, .learn-more:hover  {
+  background-color: #007ffc;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* welcome/image-box */
+
+.layout .welcome-content .body .image-box {
+  background-image: url(../assets/images/Rectangle.png);
+  width: 580px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.layout .welcome-content .body .image-box .next-arrow, .previous-arrow {
+  width: 55px;
+  height: 55px;
+  background-color: #16133e;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.layout .welcome-content .body .image-box .next-arrow {
+  right: -27.5px;
+}
+.layout .welcome-content .body .image-box .previous-arrow  {
+  left: -27.5px;
+}
+
+
+/* Our services-Cantainer-Heading */
+
+.layout .our-services-content .container .heading {
+  margin-bottom: 60px;
+}
+.layout .our-services-content .container .heading h6 {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  color: #87a1b6;
+  margin-bottom: 26px;
+}
+.layout .our-services-content .container .heading h1 {
+  font-family: "NunitoSans-SemiBold";
+  font-size: 40px;
+  color: #16133e;
+  line-height: 52px;
+}
+.layout .our-services-content .container .heading p {
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  color: #5a7184;
+}
+/* Our services/Cantainer1-Body */
+.layout .our-services-content .container:first-child {
+  margin-bottom: 204px;
+}
+.layout .our-services-content .container:first-child .body {
+  display: flex;
+  justify-content: space-between;
+}
+.layout .our-services-content .container:first-child .body .card {
+  width: 362px;
+  height: 348px;
+  border-radius: 8px;
+  padding: 42px;
+  border: 1px solid #e5eaf4;
+}
+.layout
+  .our-services-content
+  .container:first-child
+  .body
+  .card
+  .card-content
+  .image-box {
+  width: 62px;
+  height: 66px;
+  border: 1px solid #e8f0fb;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.layout
+  .our-services-content
+  .container:first-child
+  .body
+  .card
+  .card-content
+  .image-box
+  img {
+  width: 38.46;
+  height: 34.73;
+}
+.layout
+  .our-services-content
+  .container:first-child
+  .body
+  .card
+  .card-content
+  .text-box
+  h3 {
+  font-family: "Roboto-Regular";
+  font-size: 24px;
+  color: #16133e;
+  margin-bottom: 16px;
+}
+.layout
+  .our-services-content
+  .container:first-child
+  .body
+  .card
+  .card-content
+  .text-box
+  p:nth-child(2) {
+  line-height: 28px;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  margin-bottom: 22px;
+  color: #16133e;
+}
+.layout
+  .our-services-content
+  .container:first-child
+  .body
+  .card
+  .card-content
+  .text-box
+  p:nth-child(3) {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  color: #16133e;
+}
+
+/* Our services/Cantainer2-Body */
+.layout .our-services-content .container:nth-child(2) {
+  margin-bottom: 204px;
+}
+.layout .our-services-content .container:nth-child(2) .body {
+  display: flex;
+  justify-content: space-between;
+  height: 485px;
+}
+.layout .our-services-content .container:nth-child(2) .body .card {
+  width: 100%;
+  height: 485px;
+  border-radius: 8px;
+  padding: 350px 48px 350px 48px;
+  display: flex;
+}
+.layout .our-services-content .container:nth-child(2) .body .card:first-child {
+  background-image: url(../assets/images/services1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 47px;
+}
+.layout .our-services-content .container:nth-child(2) .body .card:last-child {
+  background-image: url(../assets/images/services2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.layout
+  .our-services-content
+  .container:nth-child(2)
+  .body
+  .card
+  .card-content
+  h3 {
+  color: white;
+  font-family: "Roboto-Regular";
+  font-size: 36px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* business-plan-content/Heading */
+.layout .business-plan-content {
+  margin-bottom: 204px;
+}
+.layout .business-plan-content .heading {
+  margin-bottom: 80px;
+}
+.layout .business-plan-content .heading h1 {
+  font-family: "NunitoSans-SemiBold";
+  font-size: 40px;
+  color: #16133e;
+  line-height: 52px;
+}
+.layout .business-plan-content .heading p {
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  color: #5a7184;
+}
+
+/* business-plan-content/Body */
+.layout .business-plan-content .body {
+  display: flex;
+  justify-content: space-between;
+}
+.layout .business-plan-content .body .card {
+  width: 362px;
+  height: 436px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.layout .business-plan-content .body .card .card-content .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.layout .business-plan-content .body .card .card-content .text-box h3 {
+  font-family: "Roboto-Regular";
+  font-size: 24px;
+  color: #16133e;
+  margin-bottom: 36px;
+  margin-top: 53px;
+}
+.layout .business-plan-content .body .card .card-content .text-box h2 {
+  font-family: "Roboto-Bold";
+  font-size: 40px;
+  color: #0593fa;
+  display: flex;
+  align-items: center;
+}
+.layout .business-plan-content .body .card .card-content .text-box p {
+  font-family: "Roboto-Regular";
+  font-size: 16x;
+  color: #87a1b6;
+  max-width: 209px;
+  margin-bottom: 39px;
+}
+.layout
+  .business-plan-content
+  .body
+  .card
+  .card-content
+  .text-box
+  p:last-child {
+  line-height: 28px;
+  margin-bottom: 58px;
+}
+.layout .business-plan-content .body .card .card-content .action {
+  display: flex;
+  justify-content: center;
+}
+.layout .business-plan-content .body .card .card-content .action .get-started {
+  width: 181px;
+  height: 50px;
+  background-color: white;
+  color: #16133e;
+  border: 2px solid #16133e;
+  border-radius: 23px;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+}
+.layout .business-plan-content .body .card:nth-child(2) .card-content h2 {
+  color: #56cbae;
+}
+.layout .business-plan-content .body .card:nth-child(3) .card-content h2 {
+  color: #fa6770;
+}
+.layout
+  .business-plan-content
+  .body
+  .card
+  .card-content
+  .action
+  .get-started:hover {
+  background-color: #16133e;
+  color: white;
+  cursor: pointer;
+}
+.layout .business-plan-content .body .card .card-content .line {
+  width: 362px;
+  height: 4px;
+}
+.layout .business-plan-content .body .card:nth-child(1) .line {
+  background-color: #0593fa;
+}
+.layout .business-plan-content .body .card:nth-child(2) .line {
+  background-color: #56cbae;
+}
+.layout .business-plan-content .body .card:nth-child(3) .line {
+  background-color: #fa6770;
+}
+
+/* offer-content */
+.layout .offer-content {
+  margin-bottom: 190px;
+}
+.layout .offer-content .body {
+  width: 1152px;
+  height: 387px;
+}
+.layout .offer-content .body .card {
+  width: 1152px;
+  height: 387px;
+  background-image: url("../assets/images/Rectangle\ Copy\ 13.png");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  color: white;
+  background-position: center;
+}
+.layout .offer-content .body .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.layout .offer-content .body .card .card-content h1 {
+  margin-top: 100px;
+  font-family: "Roboto-Regular";
+  font-size: 40px;
+  margin-bottom: 33px;
+}
+.layout .offer-content .body .card .card-content p {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  margin-bottom: 42px;
+}
+.layout .offer-content .body .card .card-content .actions {
+  display: flex;
+  justify-content: center;
+}
+.layout .offer-content .body .card .card-content .actions .try-free, .watch-demos {
+  width: 192px;
+  height: 50px;
+  background-color: white;
+  border: 0;
+  border-radius: 23px;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.layout .offer-content .body .card .card-content .actions .try-free  {
+  margin-right: 14px;
+}
+
+.layout .offer-content .body .card .card-content .actions .try-free:hover, .watch-demos:hover {
+  background-color: #1687fc;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  max-width: 1440px;
+  width: 100%;
+  height: 574px;
+  background-color: #16143d;
+  color: white;
+  padding-top: 94px;
+}
+footer .body {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+footer .body .info-column {
+  width: 279px;
+  margin-right: 200px;
+}
+footer .body .info-column .logo img {
+  width: 195px;
+  height: 28px;
+  margin-bottom: 34px;
+}
+footer .body .info-column p {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 64px;
+}
+footer .body .info-column .icons {
+  display: flex;
+}
+footer .body .info-column .icons .icon {
+  margin-right: 10px;
+}
+footer .body .pages-column:nth-child(2) {
+  margin-right: 40px;
+}
+footer .body .pages-column h4 {
+  font-family: "Roboto-Regular";
+  font-size: 17px;
+  margin-bottom: 41px;
+}
+footer .body .pages-column h6 {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+footer .body .pages-column:nth-child(3) {
+  margin-right: 77px;
+}
+footer .body .contact-column h4 {
+  font-family: "Roboto-Regular";
+  font-size: 17px;
+  margin-bottom: 41px;
+}
+footer .body .contact-column p {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+footer .body .contact-column p:nth-child(3) {
+  font-family: "Roboto-Regular";
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+footer .body .contact-column .images {
+  display: flex;
+  align-items: center;
+}
+footer .body .contact-column .images img:first-child  {
+  width: 106px;
+  height: 40px;
+  margin-right: 20px;
+}
+footer .body .contact-column .images img:last-child  {
+  width: 100px;
+  height: 25px;
+}
+footer .copyright p {
+  font-family: "Roboto-Regular";
+  font-size: 15px;
+  text-align: center;
+  margin-top: 160px;
+}
